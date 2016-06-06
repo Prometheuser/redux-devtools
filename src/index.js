@@ -3,11 +3,11 @@
 // export { default as createDevTools } from './createDevTools';
 
 import { instrument, ActionCreators, ActionTypes } from 'redux-devtools-instrument';
-import createDevTools from './createDevTools';
-import persistState from './persistState';
+import create from './createDevTools';
+import persist from './persistState';
 
-exports.createDevTools = createDevTools.createDevTools;
-exports.persistState = persistState.persistState;
+exports.createDevTools = create.createDevTools;
+exports.persistState = persist.persistState;
 exports.instrument = instrument;
 exports.ActionCreators = ActionCreators;
 exports.ActionTypes = ActionTypes;
