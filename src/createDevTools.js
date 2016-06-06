@@ -60,4 +60,4 @@ exports.createDevTools = function createDevTools(children) {
       );
     }
   };
-}
+};

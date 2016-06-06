@@ -7,7 +7,7 @@ import createDevTools from './createDevTools';
 import persistState from './persistState';
 
 exports.createDevTools = createDevTools.createDevTools;
-exports.persistState = createDevTools.persistState;
+exports.persistState = persistState.persistState;
 exports.instrument = instrument;
 exports.ActionCreators = ActionCreators;
 exports.ActionTypes = ActionTypes;

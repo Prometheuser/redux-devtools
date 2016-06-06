@@ -57,4 +57,4 @@ exports.persistState = function persistState(sessionId, deserializeState = ident
       }
     };
   };
-}
+};
