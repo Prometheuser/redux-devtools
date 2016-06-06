@@ -2,7 +2,7 @@ import React, { Children, Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import instrument from 'redux-devtools-instrument';
 
-export default function createDevTools(children) {
+exports.createDevTools = function createDevTools(children) {
   const monitorElement = Children.only(children);
   const monitorProps = monitorElement.props;
   const Monitor = monitorElement.type;

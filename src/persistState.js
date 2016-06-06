@@ -1,7 +1,7 @@
 import mapValues from 'lodash/mapValues';
 import identity from 'lodash/identity';
 
-export default function persistState(sessionId, deserializeState = identity, deserializeAction = identity) {
+exports.persistState = function persistState(sessionId, deserializeState = identity, deserializeAction = identity) {
   if (!sessionId) {
     return next => (...args) => next(...args);
   }
